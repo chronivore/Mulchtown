@@ -1,0 +1,59 @@
+body { background-color: lightgreen;
+font-family: 'courier';
+font-size: '18';
+}
+nav {background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 60px;
+  width: 100vw;
+  z-index: 1;
+}
+nav ul li{
+  float: left;
+  margin-left: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+.nav-mulch {
+  color: green;
+  font-family: times;
+  text-decoration: none;
+  font-size: 18pt;
+}
+.nav-mulch:hover {
+  color: brown;
+  font-weight: bold;
+}
+.header-tag {
+  text-align: center;
+  color: lightgreen;
+  font-size: 60pt;
+  text-shadow: 6px 8px 6px black;
+}
+#home {
+  margin-top: 20px;
+  position: relative;
+  left: -10px;
+  width: 100vw;
+  padding-top: 2em;
+  height: 35vh;
+  background: url("https://cdn.pixabay.com/photo/2017/04/26/19/00/mulch-2263430_960_720.jpg") center 75% no-repeat fixed;
+  background-size: cover;
+}
+#bottom {
+  margin-top: 0px;
+  position: fixed;
+  width: 100vw;
+  padding-top: 10em;
+  height: 35vh;
+  left: 0;
+  background: url("https://cdn.pixabay.com/photo/2019/02/14/19/29/gardening-3997259_960_720.jpg") center 75% no-repeat fixed;
+  background-size: cover;
+}
+p1 {
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+}
